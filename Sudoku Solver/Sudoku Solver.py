@@ -6,7 +6,13 @@ the rest of my sudoku solver needs.
 import numpy as np
 puzzle = np.zeros((9,9))
 #print(puzzle)
-                    
+
+"""
+the SeePuzzle method is used to allow the user to see the
+puzzle in a formated way. I do need to come back and improve
+this because just looking at it I know I can make it more
+efficiently. 
+"""             
 def SeePuzzle(puzzle):
     print("-------------------------")
     for i in range(9):
